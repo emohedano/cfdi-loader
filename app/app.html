@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CFDI Loader</title>
+  <link href="stylesheets/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+  <div class="container">
+	<h1>CFDI Admin</h1>
+	<form action="#" onsubmit="return false;">
+		<input type="file" id="cfdiFileInput" multiple>
+		<input type="button" class="btn" id="btnProcessFiles" value="Exportar a CSV">
+	</form>
+
+	<ul class="cfdi-list"></ul>
+	<table class="cfdi-table">
+		<thead>
+			<tr>
+				<th>RFC EMISOR</th>
+				<th>NOMBRE EMISOR</th>
+				<th>RFC RECEPTOR</th>
+				<th>NOMBRE RECEPTOR</th>
+				<th>FECHA</th>
+				<th>TOTAL</th>
+			</tr>
+		</thead>
+		<tbody>
+
+		</tbody>
+	</table>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
